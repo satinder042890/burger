@@ -1,0 +1,11 @@
+body {
+    background: url("../images/p.png");
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+.devour{
+    margin-left: 3%;
+}

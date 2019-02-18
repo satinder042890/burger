@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="card text-white bg-warning mb-3">
+        <img src="https://d1f28u9l1tudce.cloudfront.net/menu/category-thumbnail/menu-landing-premium-chicken.jpg"
+            class="card-img-top" alt="not found">
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card text-black bg-warning mb-3">
+                <div class="card-body devour">
+                        {{#each burger}}
+                        {{#unless this.devoured}}
+                         <h6>{{this.burger_name}}
+                        <form class="devour-form button-size"> 
+						<input type="hidden" class="burger_id" type="text" value={{this.id}}>
+						<div class="text-right"><button type="submit" class="btn btn-dark">Devour</button></div></h6>
+					    </form>
+                        {{/unless}}
+                        {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="card text-black text-center bg-warning mb-3">
+                <div class="card-body">
+                    <h1 class="card-title">Eat Da Burger</h1>
+                    <input class="form-control form-control-lg" id="textBox" type="text"><br>
+                    <button type="button" class="btn btn-dark btn-lg" id="submitbt">Submit</button><br><br>
+                    <h6><label for="burgerName">Enter the Burger you want to Eat</label></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card text-black bg-warning mb-3">
+                <div class="card-body">
+                    
+                        {{#each burger}}
+                        {{#if this.devoured}}
+                        <h6 class="col-12">{{this.burger_name}}
+                        <form class="devoured button-size">
+                            
+						<input type="hidden" class="burger_id" type="text" value={{this.id}}>
+						<div class="text-right"><button type="submit" class="btn btn-dark btn-sm col-3"><i class="fa fa-close"></i></button></div></h6>
+					    </form>
+                        <hr>
+                        {{/if}}
+                        {{/each}}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
