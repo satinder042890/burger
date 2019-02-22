@@ -45,3 +45,5 @@ node server.js
 * Burger will be moved to the "Devoured Burger List" section of the page.
 * In the "Devoured Burger List" click on "X" button of a burger that you would like to Remove from the " Devoured Burger List".
 * Burger will be removed from the "Devoured Burger List" section of the page.
+
+![alt text](https://github.com/satinder042890/burger/blob/master/public/assets/images/startscreen.gif)
