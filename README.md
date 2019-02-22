@@ -37,3 +37,11 @@ node server.js
 * VS Code - https://code.visualstudio.com/
 * Git Tools - https://git-scm.com/download
 * Live Markdown Editor - https://jbt.github.io/markdown-editor/
+
+## Instructions
+* Type a burger name into the app and click on submit button.
+* Burger will be added to the "Burger List" section of the page.
+* In the "burger List" click on devour button of a burger that you would like to Devour from the "Burger List".
+* Burger will be moved to the "Devoured Burger List" section of the page.
+* In the "Devoured Burger List" click on "X" button of a burger that you would like to Remove from the " Devoured Burger List".
+* Burger will be removed from the "Devoured Burger List" section of the page.
