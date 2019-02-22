@@ -31,13 +31,16 @@ router.put("/api/burger/:id",function(req,res){
     var id=parseInt(req.params.id);
     burger.updateOne(id,function(data){
        console.log("updated");
+       return res.json(data);
     });
 });
 
 router.delete("/api/burger/:id",function(req,res){
     var id=parseInt(req.params.id);
     burger.delete(id,function(data){
+
         console.log("deleted");
+        return res.json(data);
     })
 })
 

@@ -21,6 +21,7 @@ $(function(){
        $.ajax("/api/burger/"+id,{
            type:"PUT",
        }).then(function(){
+           console.log(" BURGER DEVOURED")
            location.reload();
        });
    });
@@ -32,8 +33,12 @@ $(function(){
     $.ajax("/api/burger/"+id,{
         type:"DELETE",
     }).then(function(){
+    
+        console.log(" BURGER DELETED")
         location.reload();
     });
+
+
 });
 
 });
