@@ -5,6 +5,8 @@ This app uses Handlebars, MySQL, Node, Express, and a homemade ORM to create a b
 ## Application Heroku Link
 
 The link below will give you direct access to Eat-Da-Burger web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+https://floating-eyrie-41824.herokuapp.com/
+
 
 ## Local Environment Setup
 To use Eat-Da-Burger web application application from your local environment, you must accomplish the following steps below:
